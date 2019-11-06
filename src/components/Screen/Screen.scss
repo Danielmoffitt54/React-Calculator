@@ -1,0 +1,15 @@
+@import '../../sass/base/colors.scss';
+
+.Screen {
+    height: 25vh;
+    width: 100%;
+    background-color: $Screen-bg;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.Screen h1 {
+    margin: 0;
+}
