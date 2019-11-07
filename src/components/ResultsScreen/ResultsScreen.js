@@ -5,7 +5,7 @@ class ResultsScreen extends Component {
     render() {
         return(
             <div className="ResultsScreen">
-                {this.props.children}
+                <h1>{this.props.children}</h1>
             </div>
         );
     }
