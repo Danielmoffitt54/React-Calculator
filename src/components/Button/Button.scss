@@ -1,0 +1,34 @@
+@import '../../sass/base.scss';
+
+.Button-primary {
+    @include Button;
+    color: $Calculator-text-primary;
+}
+
+.Button-operator {
+    @include Button;
+    color: $Calculator-text-operator;
+}
+
+.Button-value {
+    @include Button;
+    color: $Calculator-text-value;
+}
+
+.Button-submit {
+    @include Button;
+    width: 50%;
+    color: $Calculator-text-submit;
+}
+
+.Button-primary:hover, .Button-operator:hover, .Button-value:hover, .Button-submit:hover {
+    background-color: $Button-bg-hover;
+    color: $Calculator-text-hover;
+}
+
+.Button-primary:active, .Button-operator:active, .Button-value:active, .Button-submit:active {
+    transform: scale(.95);
+}
+
+
+
