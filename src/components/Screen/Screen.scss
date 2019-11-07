@@ -4,8 +4,8 @@
     height: 25vh;
     width: 100%;
     background-color: $Screen-bg;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: $Border-radius;
+    border-top-right-radius: $Border-radius;
     white-space: nowrap;
     overflow: hidden;
 }

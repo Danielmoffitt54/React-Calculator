@@ -1,15 +1,10 @@
 @import '../../sass/base/colors.scss';
 
 .ComputationScreen {
-    margin-top: -2px;
-    padding: 0 10px;
+    @include Screen;
     height: 6vh;
-    display: flex;
-    justify-content: flex-end;
     align-items: center;
-    font-size: 18pt;
-    font-weight: bold;
-    border: $Calculator-border;
+    font-size: 12pt;
 }
 
 .ComputationScreen p {
