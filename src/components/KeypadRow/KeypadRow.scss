@@ -1,6 +1,7 @@
 @import '../../sass/base.scss';
 
-.Keypad {
+.KeypadRow {
     width: 100%;
-    height: 55vh;
+    height: 11vh;
+    display: flex;
 }
