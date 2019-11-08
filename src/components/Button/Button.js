@@ -14,7 +14,10 @@ class Button extends Component {
         }
 
         return(
-            <button className={classes}>
+            <button 
+                className={classes}
+                onClick={this.props.onButtonPress}
+            >
                 {this.props.children}
             </button>
         );
