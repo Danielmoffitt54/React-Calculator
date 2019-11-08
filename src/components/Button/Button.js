@@ -3,14 +3,17 @@ import './Button.scss';
 
 class Button extends Component {
     static defaultProps = {
-        type: ''
+        type: '',
     };
 
     render() {
-        let classes = 'Button';
+        let classes = '';
 
-        if (this.props.type !== '') {
-            classes = 'Button-' + this.props.type;
+        for (let i = 0; i < this.props.type.length; i++) {
+            classes += 'Button-' + this.props.type[i];
+            if (i < this.props.type.length - 1) {
+                classes += ' ';
+            }
         }
 
         return(
